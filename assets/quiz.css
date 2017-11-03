@@ -1,0 +1,30 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+body{background-image:url("images/filmd.jpeg");
+     background-repeat: repeat;
+     background-size: 100%;
+     font-family: 'Arbutus';font-size: 22px;
+     color: #69ccf5;}
+
+h1{font-family: "Arbutus";
+    font-weight: bold;
+    font-size:3.5rem;
+    text-align: center;
+    width:100%;
+    margin-bottom: 40px;}
+
+.left{margin-right: : 15px;}
+
+.col-md-6{margin-bottom: 15px;
+        }
+
+.row{margin-bottom: 30px;}
+
+.btn-link{font-size: 30px;
+           color: white;}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="assets/quiz.css">
+      <link href="https://fonts.googleapis.com/css?family=Arbutus" rel='stylesheet'>
+    <title></title>
+  </head>
+  <body>
+    <h1><u>Movie Trivia Quiz</u></h1>
+    <div class=container>
+      <div class=row>
+        <div class="col-md-6 left">
+          <p>who does the voice for darth vader in the "Star Wars" movies?</p>
+          <label>
+           <input type="radio" name="question0" value="a" id="1"> James Earl Jones<br>
+           <input type="radio" name="question0" value="b" id="1"> David Prowse<br>
+           <input type="radio" name="question0" value="c" id="1"> George Lucas<br>
+           <input type="radio" name="question0" value="d" id="1"> Mark Hamill<br>
+          </label>
+
+        </div>
+        <div class="col-md-6 right">
+          <p>What is the name of the computer in “2001: A Space Oddyssey"?</p>
+          <label>
+           <input type="radio" name="question1" value="a" id="2"> Mother<br>
+           <input type="radio" name="question1" value="b" id="2"> HAL<br>
+           <input type="radio" name="question1" value="c" id="2"> HERBIE<br>
+           <input type="radio" name="question1" value="d" id="2"> C3PO<br>
+          </label>
+        </div>
+      </div>
+      <div class=row>
+        <div class="col-md-6 left">
+          <p>Who of the following superheroes is not an Avenger?</p>
+          <label>
+           <input type="radio" name="question2" value="a" id="3"> Thor<br>
+           <input type="radio" name="question2" value="b" id="3"> Iron Man<br>
+           <input type="radio" name="question2" value="c" id="3"> Captain America<br>
+           <input type="radio" name="question2" value="d" id="3"> Batman<br>
+          </label>
+        </div>
+
+        <div class="col-md-6 right">
+          <p>Who did the voice for the genie in Disney's "Aladdin"?</p>
+          <label>
+           <input type="radio" name="question3" value="a" id="4"> John Travolta<br>
+           <input type="radio" name="question3" value="b" id="4"> Robin Williams<br>
+           <input type="radio" name="question3" value="c" id="4"> Alan Rickman<br>
+           <input type="radio" name="question3" value="d" id="4"> George Carlin<br>
+          </label>
+        </div>
+      </div>
+
+      <div class=row>
+        <div class="col-md-6 left">
+          <p>How many members were there in the felloship in "The Lord of the Rings"?</p>
+          <label>
+           <input type="radio" name="question4" value="a" id="5"> 6<br>
+           <input type="radio" name="question4" value="b" id="5"> 9<br>
+           <input type="radio" name="question4" value="c" id="5"> 8<br>
+           <input type="radio" name="question4" value="d" id="5"> 5<br>
+          </label>
+        </div>
+
+        <div class="col-md-6 right">
+          <p>What is the name of Han Solo’s ship in the Star Wars movies?</p>
+          <label>
+           <input type="radio" name="question5" value="a" id="6"> Stringfellow Hawk<br>
+           <input type="radio" name="question5" value="b" id="6"> Flying Dutchman<br>
+           <input type="radio" name="question5" value="c" id="6"> Millenium Falcon<br>
+           <input type="radio" name="question5" value="d" id="6"> Perpetual Parrot<br>
+          </label>
+        </div>
+
+      </div>
+      <div class=row>
+        <div class="col-md-6 left">
+          <p>In the “Star Wars movies, which Jedi has the only purple lightsaber?</p>
+          <label>
+           <input type="radio" name="question6" value="a" id="7"> Qui-Gon Jinn<br>
+           <input type="radio" name="question6" value="b" id="7"> Yoda<br>
+           <input type="radio" name="question6" value="c" id="7"> Mace Windu<br>
+           <input type="radio" name="question6" value="d" id="7"> Obi-Wan Kenobi<br>
+          </label>
+        </div>
+        <div class="col-md-6 right">
+          <p>In "The Prisoner of Askaban" what animal does Gary Oldman turn into?</p>
+          <label>
+           <input type="radio" name="question7" value="a" id="8"> dog<br>
+           <input type="radio" name="question7" value="b" id="8"> cat<br>
+           <input type="radio" name="question7" value="c" id="8"> mouse<br>
+           <input type="radio" name="question7" value="d" id="8"> bird<br>
+          </label>
+        </div>
+      </div>
+
+      <div class=row>
+        <div class="col-md-6 left">
+          <p>According to Mary Poppins, a spoonful of what helps the medicine go down?</p>
+          <label>
+           <input type="radio" name="question8" value="a" id="9"> salt<br>
+           <input type="radio" name="question8" value="b" id="9"> sugar<br>
+           <input type="radio" name="question8" value="c" id="9"> milk<br>
+           <input type="radio" name="question8" value="d" id="9"> coffee<br>
+         </label>
+        </div>
+        <div class="col-md-6 right">
+          <p>In the movie ‘Back to the Future’, what year does Marty travel back to?</p>
+          <label>
+           <input type="radio" name="question9" value="a" id="0"> 1955<br>
+           <input type="radio" name="question9" value="b" id="0"> 1942<br>
+           <input type="radio" name="question9" value="c" id="0"> 1963<br>
+           <input type="radio" name="question9" value="d" id="0"> 1937<br>
+          </label>
+        </div>
+      </div>
+        <button class="btn btn-link" onclick="returnScore()">View Results</button>
+     </div>
+
+    </div>
+  </body>
+<script src="assets/quiz.js" charset="utf-8"></script>
+</html>
